@@ -2,6 +2,8 @@ entrada = input('[E]ntrar [S]air: ')
 
 if entrada == 'S' or entrada == 's':
     print('Saindo...')
+elif entrada == '':
+    print('Comando Invalido!')
 else:
     senha_digitada = input('Senha: ')
     senha_permitida = '123456'
@@ -10,4 +12,3 @@ else:
         print('Login Efetuado!')
     else:
         print('Senha Incorreta')
-
