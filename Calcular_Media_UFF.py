@@ -1,4 +1,4 @@
-# Função para calcular a média ponderada
+# um codigo para calcular a media da matéria de Introdução à Informatica no curso de Matematica da UFF
 def calcular_media(ad, ap):
     return ((ad * 4) + (ap * 6)) / 10
 
